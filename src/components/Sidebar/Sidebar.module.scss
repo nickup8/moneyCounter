@@ -1,0 +1,47 @@
+@import './../../scss/variables';
+
+.sidebar {
+	width: 280px;
+	height: 100vh;
+	background-color: $white;
+	padding: 16px;
+	border-right: 1px solid $devider;
+	position: fixed;
+	z-index: 1000;
+}
+
+.topSidebar {
+	padding: 0 16px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+}
+.menuButton {
+	padding: 8px;
+	transition: background 0.25s ease-in-out;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-repeat: 4px;
+}
+
+.menuButton:hover {
+	background: $grey;
+}
+
+.navigation {
+	margin-top: 48px;
+}
+
+.h2_sidebar {
+	font-size: 16px;
+	font-weight: 500;
+	color: $grey_text;
+	padding: 0 16px;
+}
+
+.nav {
+	margin-top: 16px;
+}

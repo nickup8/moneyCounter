@@ -1,0 +1,29 @@
+@import './../../../scss/variables';
+@import './../../../scss/fonts';
+
+.button {
+	line-height: 1.75;
+	padding: 6px 16px;
+	background-color: $blue;
+	color: $white;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-transform: uppercase;
+	transition: background 0.25s ease-in-out;
+}
+.button span {
+	font-size: 14px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.45px;
+}
+
+.button:hover {
+	background: #2a6db5;
+}
+
+.button:active {
+	background: #215a97;
+}

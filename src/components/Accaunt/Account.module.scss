@@ -1,0 +1,26 @@
+@import './../../scss/variables';
+
+.accountWrapper {
+	display: flex;
+	align-items: center;
+}
+
+.accountName {
+	font-size: 16px;
+	font-weight: 500;
+	color: $text;
+	margin-right: 8px;
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: $blue;
+	color: $white;
+	font-weight: 500;
+	font-size: 16px;
+}

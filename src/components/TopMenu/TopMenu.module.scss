@@ -1,0 +1,33 @@
+@import './../../scss/variables';
+.topMenu {
+	background: $white;
+	height: 72px;
+	border-bottom: 1px solid $devider;
+	position: fixed;
+	width: 100%;
+	padding: 16px 96px 16px 376px;
+}
+
+.topMenuContent {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 24px;
+	grid-row-gap: 0px;
+	height: 100%;
+}
+
+.serachBox {
+	display: flex;
+	align-items: center;
+}
+
+.accountBox {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.accountDate {
+	margin-right: 24px;
+}

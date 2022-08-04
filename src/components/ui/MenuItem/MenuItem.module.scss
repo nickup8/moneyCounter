@@ -1,0 +1,28 @@
+@import './../../../scss/variables';
+.menuItem {
+	display: flex;
+	align-items: center;
+	padding: 10px 16px;
+	color: $grey_text;
+	font-weight: 500;
+	text-decoration: none;
+	transition: background 0.25s ease-in-out;
+	border-radius: 4px;
+	margin-bottom: 4px;
+}
+.menuItem:hover {
+	background-color: $grey;
+}
+
+.menuItem:last-child {
+	margin-bottom: 0;
+}
+
+.menuItem > img {
+	margin: 0 8px 0 -2px;
+}
+
+.menuItem.active {
+	background: $blue;
+	color: $white;
+}

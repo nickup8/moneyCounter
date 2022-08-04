@@ -1,0 +1,37 @@
+@import './../../scss/variables';
+
+.searchBox {
+	height: 40px;
+	width: 100%;
+	max-width: 360px;
+	position: relative;
+}
+.inputSearch {
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	padding: 0 50px 0 16px;
+	border: 1px solid $devider;
+	border-radius: 4px;
+	outline: none;
+	transition: border 0.25s ease-in-out;
+	color: $text;
+}
+
+.inputSearch:focus {
+	border: 1px solid $blue;
+}
+
+.inputSearch::placeholder {
+	color: $grey_text;
+	font-weight: 300;
+}
+
+.searchIcon {
+	position: absolute;
+	top: 50%;
+	right: 14px;
+	transform: translateY(-50%);
+	width: 24px;
+	height: 24px;
+}
