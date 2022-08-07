@@ -9,5 +9,35 @@
 	padding: 24px;
 }
 
+.h2 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 16px;
+}
+
 .form {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr 2fr 1fr;
+	grid-column-gap: 16px;
+	grid-row-gap: 16px;
+}
+
+.date {
+	grid-column: 1/2;
+}
+
+.categoty {
+	grid-column: 2/4;
+}
+.order {
+	grid-column: 1/3;
+}
+
+.sum {
+	grid-column: 3/4;
+}
+.comments {
+	grid-column: 1/4;
 }

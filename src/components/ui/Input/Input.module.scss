@@ -1,1 +1,46 @@
 @import './../../../scss/variables';
+
+.inputBox {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.label {
+	position: absolute;
+	top: -20%;
+	left: 9px;
+	font-size: 12px;
+	background-color: $white;
+	padding: 0 8px;
+	color: $grey_text;
+}
+
+.input {
+	width: 100%;
+	height: 100%;
+	border: 1px solid $grey_text;
+	border-radius: 4px;
+	outline: none;
+	padding: 0 16px;
+	font-size: 14px;
+}
+
+.input:focus {
+	border: 1px solid $blue;
+}
+
+.input:focus + .label {
+	color: $blue;
+}
+
+.icon {
+	position: absolute;
+	top: 50%;
+	right: 13px;
+	transform: translateY(-50%);
+}
+
+.inputIcon {
+	padding-right: 32px;
+}
