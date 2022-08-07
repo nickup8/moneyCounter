@@ -1,1 +1,14 @@
 @import './../../scss/variables';
+
+.container {
+	margin: 32px 96px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 328px 1fr;
+	grid-column-gap: 32px;
+	grid-row-gap: 32px;
+}
+
+.costList {
+	grid-column: 1/4;
+}
