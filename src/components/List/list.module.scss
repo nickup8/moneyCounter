@@ -1,0 +1,45 @@
+@import './../../scss/variables';
+
+.list {
+	background: $white;
+	height: 100%;
+	width: 100%;
+	padding: 24px;
+	border: 1px solid $devider;
+}
+
+.h2 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom: 16px;
+}
+
+.tabel {
+	width: 100%;
+}
+
+.thead {
+	display: grid;
+	grid-template-columns: 4% 10% 20% 20% 6% 30% 10%;
+	// text-align: center;
+	color: $white;
+	background: $blue;
+	border-radius: 4px 4px 0 0;
+	font-weight: 500;
+}
+
+.tcolumnbox {
+	padding: 16px;
+}
+
+.trow {
+	display: grid;
+	grid-template-columns: 4% 10% 20% 20% 6% 30% 10%;
+	// text-align: center;
+	color: $text;
+}
+
+.trow:nth-child(odd) {
+	background: $grey;
+}
