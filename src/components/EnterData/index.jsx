@@ -1,6 +1,7 @@
 import React from 'react';
 import { Input } from '../ui/Input';
 import { Button } from './../ui/Button';
+import { TextArea } from '../ui/TextArea';
 
 import iconRub from './../../img/rub.svg';
 
@@ -31,7 +32,7 @@ export const EnterData = () => {
 					/>
 				</div>
 				<div className={style.comments}>
-					<input type="text" />
+					<TextArea />
 				</div>
 				<Button text="Добавить" type="sudmit" />
 			</form>
