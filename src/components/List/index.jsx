@@ -2,7 +2,7 @@ import React from 'react';
 
 import style from './list.module.scss';
 
-import rubIcon from './../../img/rub.svg';
+// import rubIcon from './../../img/rub.svg';
 
 export const List = () => {
 	return (

@@ -1,17 +1,17 @@
 import React from 'react';
+// import { useDispatch } from 'react-redux';
+
 import style from './textArea.module.scss';
 
-export const TextArea = () => {
-	const [textValue, setTextValue] = React.useState('');
-
+export const TextArea = ({ value, onChange }) => {
 	return (
 		<div className={style.textAreaBox}>
 			<label className={style.label}>Комментарий</label>
 			<textarea
 				rows="3"
 				className={style.textarea}
-				value={textValue}
-				onChange={(event) => setTextValue(event.target.value)}
+				value={value}
+				onChange={(event) => onChange(event.target.value)}
 				placeholder="Краткое описание покупки"
 			></textarea>
 		</div>
